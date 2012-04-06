@@ -1,2 +1,4 @@
 demo_performance_analytics.R is a short Rscript which shows functionnalities of the PerfomanceAnalytics package
 
+demo_mean.R is a short Rscript which implements a function mean as if I would add it in th package PerformanceAnalytics. Hence it can handle xts object and missing data.
+
