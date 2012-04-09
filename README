@@ -2,5 +2,5 @@ demo_performance_analytics.R is a short Rscript which shows functionnalities of 
 
 demo_mean.R is a short Rscript which implements a function mean as if I would add it in the package PerformanceAnalytics. Hence it can handle xts object and missing data.
 
-demo_downside_potential is the correction of a function already present in the package but which is wrong and don't give the good result. I fixed the functions DownsideDeviation and modified the implemantation of the function DownsidePotential so that it can now fit well with the other functions of PerformanceAnalytics. It can handle missing data and multi columns data and is able to convert any time object to a xts object to manipulate it and then get the object back to its previous class. Hence the process is transparant.
+demo_downside_potential is the correction of a function already present in the package but which is wrong and don't give the good result. I fixed the functions DownsideDeviation and modified the implemantation of the function DownsidePotential so that it can now fit well with the other functions of PerformanceAnalytics. It can handle missing data and multi columns data and is able to convert any time object to a xts object to manipulate it and then get the object back to its previous class. Hence the process is transparent for the user.
 
