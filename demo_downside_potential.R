@@ -40,6 +40,7 @@ function (R, MAR = 0, method=c("subset","full"), ..., potential=FALSE)
         p=2
         if(potential) p=1 # calculates downside potential instead
         result = sqrt(sum((MAR - r)^p)/len)
+	#result = sqrt(sum((r - MAR)^p)/len) in the already coded function which doesn't matter when potential=FALSE since p=2 but lead to take the sqrt of a negative number when potential=TRUE and p=1
         return(result)
 	reclass(result, R0)
     }
